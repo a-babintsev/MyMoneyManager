@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MyMoneyManager</string>
+   <string>Учёт личных финансов</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../../Pictures/Images/statistic_resource.qrc">

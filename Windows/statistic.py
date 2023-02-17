@@ -59,20 +59,4 @@ class StatisticForm(QtWidgets.QMainWindow, statistic_form.Ui_MainWindow):
         table.setCellWidget(row, col, self.del_btn)
         table.setCellWidget(row, col + 1, self.red_btn)
 
-        # print(self.rows)
-
-    #     self.del_btn.clicked.connect(lambda: self.deleteButtonClick(row, self.rows))
-
-    # def deleteButtonClick(self, row, rows):
-    #     statistic_table = self.statisticTable
-    #     # # statistic_table.selected
-
-    #     # # for i in range(4):
-    #     # #     print(statistic_table.item(row, i).text())
-    #     statistic_table.removeRow(row)
-    #     # # print("Ряд: ", row)
-
-    #     # print(statistic_table.item(statistic_table.currentRow(), row).text())
-    #     print(row)
-
 

@@ -2,7 +2,7 @@ import sqlite3
 
 
 def create_db():
-    conn = sqlite3.connect('C:\\Users\\alex\\Desktop\\MyMoneyManager\\DB\\money_manager_db.db')
+    conn = sqlite3.connect('D:\\PyCharm\\PycharmProjects\\MyMoneyManager-main\\DB\\money_manager_db.db')
     cursor = conn.cursor()
 
     cursor.execute('''CREATE TABLE expenses (

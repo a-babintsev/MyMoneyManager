@@ -4,7 +4,7 @@ import os
 import sqlite3
 
 def conn_money_manager_db():
-    db_path = 'C:\\Users\\alex\\Desktop\\MyMoneyManager\\DB\\money_manager_db.db'
+    db_path = 'D:\\PyCharm\\PycharmProjects\\MyMoneyManager-main\\DB\\money_manager_db.db'
     if not db_path:
         raise Exception('Path money_manager_db is empty. See config')	
 
